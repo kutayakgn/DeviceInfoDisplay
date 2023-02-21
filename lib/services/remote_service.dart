@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 class RemoteService {
   Future<List<Post>?> getPosts() async {
     var client = http.Client();
-    var uri = Uri.parse('https://apimqtt.innovaarge.site/api/SensorRecords');
+    var uri = Uri.parse('SENCORED API LINK');
     var response = await client.get(uri);
     if (response.statusCode == 200) {
       print("STATuS CODE");
